@@ -1,0 +1,44 @@
+AWS Login
+Select EC2
+Launch Instance
+Give Name 
+Select Ubuntu
+Key Pair - Create New Key Pair 
+Select RSA
+Give Name
+Create Key
+Launch Instance
+Click On Succesfully initiated Link
+Instances Dashboard :
+	Copy Public IP Address
+	Select Security 
+	Click on Security Groups Link
+
+Security groups :
+	Inbound Rules : Edit Inbound Rule
+
+Edit Inbound Rule : 
+	Add Rule 
+	Select All traffic
+	Select 0.0.0.0/0
+	Save Rules
+
+
+
+MOBAXTERM :
+	Click On Sessions
+	SSH :
+		Paste Public IP Address In Remote Address
+		Specify Username : Ubuntu
+		Advance Setting : Use Private Key : Select Downloaded Key
+		Click on Accept
+
+
+Open Browser Paste Link : https://docs.docker.com/engine/install/ubuntu/
+
+Copy Set Up Docker Repository Commands & Paste On MOBAXTERM
+
+Open Tiny Url Link & Paste Rest of the Commands 
+	Press I 
+        docker build -t docker . if this command doesn't work  Use sudo docker build -t docker .  
+	if any of the commands doesn't work paste sudo before them

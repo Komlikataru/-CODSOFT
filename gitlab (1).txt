@@ -1,0 +1,12 @@
+git init
+git clone https://gitlab.com/college8754046/Prctical.git
+git status
+cd Prctical
+echo "Git Lab" > example.txt
+git add .
+git commit -m "Git Lab Hello"
+git push origin main
+git branch feature1
+git checkout feature1
+git checkout main 
+git push origin feature1

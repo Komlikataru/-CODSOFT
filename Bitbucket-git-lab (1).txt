@@ -1,0 +1,82 @@
+##Bitbucket-->
+
+1st create bitbucket repo--> click clone & copy link
+
+#CMD 
+ 1  git init
+ 2 git clone https://komlika123admin@bitbucket.org/komlika1234/project
+ 3 ls
+ 4 cd project1
+ 5  ls
+ 6 echo "Hello" > xyz.txt
+ 7 ls
+ 8 git add xyz.txt
+ 9 git commit -m "Hello"
+ 10 git push origin main----------->cmd("PUSH")
+
+
+
+###Merg--->>
+
+	push full cmd
+
+
+
+2	 git checkout -b Branch1
+3	 git push -u origin Branch1
+4	 git checkout Branch1
+5	 git checkout main
+6	 git pull origin main
+7	git merge Branch1
+8	git push origin main
+9	 git log
+ 
+##merged cmd------>>  git branch --merged
+
+
+
+
+
+
+Git Lab
+
+ 	git init
+  292  git clone https://gitlab.com/anishgroup/shreya123.git
+  293  ls
+  294  cd shreya123
+  295  echo "Hello Shreya"
+  296  echo "Hello Shreya" > shreya.txt
+  297  git commit -m "Welcome Shreya"
+  298  git add shreya.txt
+  299  git add shreya.txt
+  300  git push origin main
+  301  git pull
+  302  git branch
+  303  git checkout main
+  304  git pull origin main
+  305  git branch -b b1
+  306  git checkout -b b1
+  307  git push -u origin b1
+  308  git checkout b1
+  309  git checkout main
+  310  git pull origin main
+  311  git merge b1
+  312  git push origin main
+  313  git log
+  314  git branch
+  315  git branch b1
+  316  git push
+  317  git checkout b1
+  318  git status
+  319  vim shreya.txt
+  320  git status
+  321  git add .
+  322  git commit -m "Edited msg"
+  323  git push origin main
+  324  git push
+  325  git push origin main
+  326  git checkout main
+  327  git merge b1
+	
+
+
